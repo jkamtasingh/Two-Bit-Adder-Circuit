@@ -20,6 +20,7 @@ Used to perform binary addition of two 2 bit numbers, the fundamental part of th
 
 # The Process
 To begin, the Circuitverse software was used to combine both a half adder and full adder circuit into a two bit adder circuit.
+<img width="1289" height="921" alt="Image" src="https://github.com/user-attachments/assets/6441974d-5263-4dad-8b87-78924a6155b4" />
 
 By using Circuitverse, I was able to visualize where the logic gates will connect together with their respective ICs on the breadboard. 
 

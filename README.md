@@ -37,3 +37,4 @@ Through this project, I learned the important context behind binary addition, re
 - I can continue to experiment with two bit adders and find different use cases for them.
 
 # Video Demonstration 
+https://github.com/user-attachments/assets/565a40d8-182b-493c-aaf6-6be16f198d36

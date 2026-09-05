@@ -15,8 +15,15 @@ Used to perform binary addition of two 2 bit numbers, the fundamental part of th
 # Features
 - The two bit adder circuit accepts two 2-bit binary numbers
   - In my example, the DIP Switch are these inputs: 1 -> B1, 2 -> A1, 3 -> B0, 4 -> A0.
-- The Red LEDs produce a 2-bit sum output
-  - With my circuit, by reading the LEDs from left to right, the outputs are: C2, S1, C0.
+- The Red LEDs produce a 3 bit sum output
+  - With my circuit, by reading the LEDs from left to right, the outputs are: Q1, Q0, CO.
+
+# How It Works
+The 2-bit adder is built from two stages:
+- Bit 0 (Half Adder): A0 and B0 are combined using an XOR gate (produces the sum bit Q0) and an AND gate (produces an internal carry).
+- Bit 1 (Full Adder): A1 and B1 must also account for the internal carry generated from bit 0. This stage uses two XOR gates, two AND gates, and an OR gate to produce the sum bit Q1 and the final carry-out, CO.
+
+The internal carry generated from the bit 0 stage feeds directly into the bit 1 stage, allowing the circuit to correctly "carry the 1" the same way you would by hand in decimal addition. The final output is a 3-bit result (Q1, Q0, CO) representing the sum of the two 2-bit binary numbers.
 
 # The Process
 To begin, the Circuitverse software was used to combine both a half adder and full adder circuit into a two bit adder circuit.

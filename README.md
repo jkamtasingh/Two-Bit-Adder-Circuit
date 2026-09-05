@@ -25,6 +25,7 @@ To begin, the Circuitverse software was used to combine both a half adder and fu
 By using Circuitverse, I was able to visualize where the logic gates will connect together with their respective ICs on the breadboard. 
 
 Next, I recreated the logic gate circuit on a breadboard, using the DIP Switch as the inputs and Red LEDs as outputs. 
+<img width="1703" height="1277" alt="Image" src="https://github.com/user-attachments/assets/6c832511-b471-4210-a56b-9a164533640e" />
 
 The finished breadboard circuit is a fully working two bit adder circuit.
 
